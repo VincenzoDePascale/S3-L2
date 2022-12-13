@@ -25,9 +25,7 @@ function arrayRandom() {
   return array;
 }
 
-let numeriRandom = arrayRandom();
-
-console.log(numeriRandom);
+console.log(arrayRandom());
 
 /* ESERCIZIO 3
   Scrivi una funzione per ricavare solamente i valori PARI da un array composto da soli valori numerici (suggerimento: il metodo filter può aiutare)
